@@ -1,0 +1,37 @@
+nav{
+    width: 80%;
+    min-height: 50px;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section{
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -5;
+}
+
+
+.logo-section p{
+    position: absolute;
+    right: -108px;
+    z-index: 5;
+}
+
+.navlinks{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+
+.navlinks li{
+    list-style-type: none;
+}
+

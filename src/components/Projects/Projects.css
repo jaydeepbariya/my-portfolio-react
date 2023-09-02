@@ -1,0 +1,171 @@
+.project-section {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(231, 231, 231);
+}
+
+.project-section-heading {
+  text-align: center;
+  color: rgb(206, 108, 72);
+  font-size: 90px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+  width: 90%;
+  padding-bottom: 10rem;
+}
+
+.project-detail {
+  position: relative;
+  height: 550px;
+  width: 90%;
+  background-image: url("../../images/projects/studynotion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  box-shadow: 0px 0px 30px black;
+  z-index: 0;
+}
+
+/* it will look after hover removed*/
+.project-detail::after{
+  content: "";
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #1f1f1f9a;
+}
+
+/* it will look after hover added*/
+.project-detail::before{
+  content: "";
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(206, 108, 72,0.5);
+  transform: scaleX(0);
+  transition: all .4s;
+  transform-origin: left;
+  z-index: 1;
+}
+
+/* hover going on */
+.project-detail:hover::before{
+  transform: scaleX(1);
+}
+
+
+
+.project-number-left{
+  position: absolute;
+  top:-10px;
+  left: -10px;
+  font-size: 150px;
+  font-weight: 600;
+  color: white;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.project-detail:hover .project-number-left{
+  opacity: 1;
+}
+
+.project-number-right{
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  font-size: 150px;
+  font-weight: 600;
+  color: white;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.project-detail:hover .project-number-right{
+  opacity: 1;
+}
+
+.project-content{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2em;
+  bottom: 20%;
+  z-index: 5;
+  gap: 1rem;
+  transition: transform .4s;
+}
+
+.project-detail:hover .project-content{
+  transform: scale(1.1);
+}
+
+.project-content-left{
+  position: absolute;
+  left: 10%;
+}
+
+.project-content-right{
+  position: absolute;
+  right: 10%;
+}
+
+.skill-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-icon{
+  width: 40px;
+}
+
+.project-heading{
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.btn-grp{
+  display: flex;
+  gap:2rem;
+  align-items: center;
+}
+
+#project1{
+  margin-left: 150px;
+}
+#project2{
+  margin-left: 200px;
+  background-image: url("../../images/projects/nike_clone.png");
+}
+#project3{
+  margin-left: 150px;
+  background-image: url("../../images/projects/razorpay_clone.png");
+}
+#project4{
+  margin-left: 200px;
+  background-image: url("../../images/projects/discord_clone.png");
+}
+
+.project-btn{
+    padding: 5px 10px;
+    border-radius: 5%;
+    background-color: rgb(224, 224, 113);
+    color: rgb(29, 24, 24);
+}
