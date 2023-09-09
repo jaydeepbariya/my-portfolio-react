@@ -19,7 +19,7 @@ const Contact = () => {
 
   const onSubmit = (data) => {
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_o2c7r47", form.current, process.env.REACT_APP_PUBLIC_KEY, {
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_o2c7r47", form.current, "qg11O4YvW6jSQBobI", {
             to_name : process.env.REACT_APP_TO_EMAIL_1,
             from_name : process.env.REACT_APP_FROM_EMAIL_1,
             name : data.name,
@@ -33,7 +33,7 @@ const Contact = () => {
           console.log(error.text);
       });
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_fs6pgsx", form.current, process.env.REACT_APP_PUBLIC_KEY, {
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_fs6pgsx", form.current, "qg11O4YvW6jSQBobI", {
         to_name : data.email,
         from_name : process.env.REACT_APP_FROM_EMAIL_1,
         name : data.name
