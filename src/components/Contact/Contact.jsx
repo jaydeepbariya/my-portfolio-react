@@ -19,9 +19,9 @@ const Contact = () => {
 
   const onSubmit = (data) => {
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_o2c7r47", form.current, "qg11O4YvW6jSQBobI", {
-            to_name : process.env.REACT_APP_TO_EMAIL_1,
-            from_name : process.env.REACT_APP_FROM_EMAIL_1,
+    emailjs.sendForm("service_7ce875e", "template_o2c7r47", form.current, "qg11O4YvW6jSQBobI", {
+            to_name : "jaydeepbariya.dev@gmail.com",
+            from_name : "jaydeepbariya59@gmail.com",
             name : data.name,
             email : data.email,
             subject : data.subject,
@@ -33,9 +33,9 @@ const Contact = () => {
           console.log(error.text);
       });
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_fs6pgsx", form.current, "qg11O4YvW6jSQBobI", {
+    emailjs.sendForm("service_7ce875e", "template_fs6pgsx", form.current, "qg11O4YvW6jSQBobI", {
         to_name : data.email,
-        from_name : process.env.REACT_APP_FROM_EMAIL_1,
+        from_name : "jaydeepbariya.dev@gmail.com",
         name : data.name
   })
   .then((result) => {
