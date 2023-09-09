@@ -16,11 +16,11 @@ function App() {
 
         <Projects />
 
-        {/* <Skills /> */}
+        <Skills />
 
-        {/* <Contact /> */}
+        <Contact />
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );

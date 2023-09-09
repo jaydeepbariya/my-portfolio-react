@@ -1,0 +1,80 @@
+.contact-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    padding-bottom: 50px;
+  }
+  
+  .contact-upper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .contact-heading{
+    text-align: left;
+    font-size: 60px;
+    font-weight: 600;
+    color: orangered;
+  }
+  
+  .contact-subheading{
+    font-size: 40px;
+    font-weight: 500;
+    color: gray;
+  }
+  
+  .contact-lower{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+  }
+  
+  .input-field{
+    width: 100%;
+    border:none;
+    box-shadow: 0px 0px 5px black;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  .input-field:focus{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  .btn-pink{
+    width: 100px;
+    background-color: orangered;
+    padding: 5px 10px;
+    text-align: center;
+    transition: all 0.3s linear;
+    outline: none;
+    border: none;
+  }
+
+  .btn-pink:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .btn-pink:active{
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .errMsg{
+    font-size: small;
+    color: red;
+  }
