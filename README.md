@@ -5,7 +5,8 @@
   - HTML, CSS, JavaScript and ReactJS
 
 ## Visit :
-  - https://jaydeepbariya.vercel.app/
+<a href="https://jaydeepbariya.vercel.app/" target="_blank" >Visit Portfolio</a>
+
     
 ## Work In Progress :
   - Responsive Design
