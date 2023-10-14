@@ -10,7 +10,7 @@ const Footer = () => {
     <div class="footer-navlinks">
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#contactme">Contact Me</a>
+        <a href="#contactme">Contact</a>
     </div>
 
     <div class="social-links">

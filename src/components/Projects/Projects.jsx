@@ -45,7 +45,7 @@ const Projects = () => {
                 <div className="btn-grp">
                   <div className="project-btn">
                     <a
-                      href="https://studynotion-frontend-ho1v2d6dg-jaydeepbariya.vercel.app/"
+                      href="https://studynotion-frontend-flame.vercel.app/"
                       target="_blank"
                     >
                       Visit
@@ -106,7 +106,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <p className="project-group-heading">HTML, CSS and JavaScript</p>
+          <p className="project-group-heading">JavaScript</p>
 
           <div className="project-group-cards">
             <div className="project-detail" id="project31">

@@ -1,11 +1,12 @@
 .hero{
     width: 80%;
+    height: max-content;
     margin: auto;
-    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    padding: 3rem;
 }
 
 .hero-text{
@@ -180,4 +181,15 @@ button:hover{
   }
 }
 
+
+@media only screen and (max-width:768px) {
+  .hero{
+    flex-direction: column;
+    margin: 40px auto;
+  }
+  
+  .hero-anim{
+    height: 200px;
+  }
+}
 

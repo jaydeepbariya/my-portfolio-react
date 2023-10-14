@@ -5,7 +5,7 @@
     align-items: center;
     width: 1200px;
     margin: 0 auto;
-    height: 700px;
+    min-height: 700px;
   }
   
   .faded-text-skill{
@@ -84,4 +84,39 @@
     gap: 2rem;
     text-align: justify;
   }
+
+@media only screen and (max-width:768px) {
+  .skill-section{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .skill-section-left{
+    width: 90%;
+    margin: auto;
+  }
+
+  
+  .skill-section-right{
+    min-width: 90%;
+    margin: 4rem auto;
+
+  }
+
+  .faded-text-skill{
+    display: none;
+  }
+
+  .skill-heading{
+    width: 90%;
+    margin: auto;
+  }
+
+  .skill-subheading{
+    width: 90%;
+    margin: auto;
+  }
+}
+  
   

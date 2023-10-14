@@ -78,3 +78,19 @@
     font-size: small;
     color: red;
   }
+
+  @media only screen and (max-width:768px){
+    .contact-heading{
+      width: 80%;
+      margin: auto;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .contact-subheading{
+      width: 80%;
+      margin: auto;
+      font-size: 30px;
+      text-align: center;
+    }
+  }

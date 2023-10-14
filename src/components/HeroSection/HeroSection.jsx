@@ -34,23 +34,23 @@ const HeroSection = () => {
 
         </div>
 
-        <div class="hero-img">
-          <div class="absolute icons icon-dots">
+        <div className="hero-img">
+          <div className="absolute icons icon-dots">
             <img src={dots} alt="dots" />
           </div>
-          <div class="absolute icons icon-cube">
+          <div className="absolute icons icon-cube">
             <img src={cube} alt="cube" />
           </div>
-          <div class="absolute icons icon-circle">
+          <div className="absolute icons icon-circle">
             <img src={circle} alt="circle" />
           </div>
-          <div class="absolute icons icon-zigzags">
+          <div className="absolute icons icon-zigzags">
             <img src={zigzags} alt="zigzags" />
           </div>
-          <div class="absolute icons icon-plus">
+          <div className="absolute icons icon-plus">
             <img src={plus} alt="plus" />
           </div>
-          <div class="absolute icons icon-user">
+          <div className="absolute icons icon-user">
             <img src={heroImg} alt="userImg" />
           </div>
         </div>
