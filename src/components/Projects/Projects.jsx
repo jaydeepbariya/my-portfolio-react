@@ -33,14 +33,9 @@ const Projects = () => {
                   <img className="skill-icon" src={nodejs} alt="nodejs" />
                   <img className="skill-icon" src={expressjs} alt="expressjs" />
                   <img className="skill-icon" src={mongodb} alt="mongodb" />
-                  <img className="skill-icon" src={github} alt="mongodb" />
                 </div>
 
                 <div className="project-heading">StudyNotion App</div>
-
-                <div className="project-description">
-                  This is a Full Stack EdTech Application.
-                </div>
 
                 <div className="btn-grp">
                   <div className="project-btn">
@@ -80,10 +75,6 @@ const Projects = () => {
 
                 <div className="project-heading">ShoppingCart App</div>
 
-                <div className="project-description">
-                  Shopping Cart Application with React and Redux.
-                </div>
-
                 <div className="btn-grp">
                   <div className="project-btn">
                     <a
@@ -120,8 +111,6 @@ const Projects = () => {
 
                 <div className="project-heading">WeatherApp</div>
 
-                <div className="project-description"></div>
-
                 <div className="btn-grp">
                   <div className="project-btn">
                     <a
@@ -153,8 +142,6 @@ const Projects = () => {
 
                 <div className="project-heading">DevDetective App</div>
 
-                <div className="project-description">Search Github Details</div>
-
                 <div className="btn-grp">
                   <div className="project-btn">
                     <a
@@ -185,8 +172,6 @@ const Projects = () => {
                 </div>
 
                 <div className="project-heading">PasswordGenerator App</div>
-
-                <div className="project-description"></div>
 
                 <div className="btn-grp">
                   <div className="project-btn">
@@ -223,8 +208,6 @@ const Projects = () => {
 
                 <div className="project-heading">Razorpay Clone</div>
 
-                <div className="project-description"></div>
-
                 <div className="btn-grp">
                   <div className="project-btn">
                     <a
@@ -255,8 +238,6 @@ const Projects = () => {
 
                 <div className="project-heading">Discord Clone</div>
 
-                <div className="project-description"></div>
-
                 <div className="btn-grp">
                   <div className="project-btn">
                     <a
@@ -286,8 +267,6 @@ const Projects = () => {
                 </div>
 
                 <div className="project-heading">Nike Clone</div>
-
-                <div className="project-description"></div>
 
                 <div className="btn-grp">
                   <div className="project-btn">
@@ -323,8 +302,6 @@ const Projects = () => {
                 </div>
 
                 <div className="project-heading">ImageGallery</div>
-
-                <div className="project-description"></div>
 
                 <div className="btn-grp">
                   <div className="project-btn">

@@ -1,6 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import navbarLogo from "../../images/userAssets/NavLogo.jpg";
+import { RxCrossCircled } from 'react-icons/rx';
 
 const Navbar = () => {
   return (
@@ -9,7 +10,6 @@ const Navbar = () => {
         <img src={navbarLogo} alt="navbar-logo" id="navbar-img" width={40} height={40} />
         <p>aydeep Bariya</p>
       </div>
-
       <ul className="navlinks">
         <li>
           <a href="#projects">Projects</a>
