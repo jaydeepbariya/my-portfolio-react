@@ -27,11 +27,7 @@ const HeroSection = () => {
           </div>
 
           <p id='hero-about-text'>I am a MERN Fullstack Web Developer. I am well aware of React, JavaScript, Express and MongoDB.</p>
-        
-        <div className='hero-btn'>
-          <button><a href='#contact'>Hire Me</a></button>
-        </div>
-
+          
         </div>
 
         <div className="hero-img">

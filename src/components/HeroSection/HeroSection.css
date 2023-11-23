@@ -66,6 +66,7 @@ button:hover{
 }
 
 .icon-user img {
+  width: 350px;
   padding: 20px;
   box-shadow: 0px 0px 15px black;
   animation: userImg 5s linear infinite;
@@ -190,16 +191,7 @@ button:hover{
   .hero-text{
     width: 100%;
   }
-
-  .hero-img{
-    width: 80%;
-    margin: auto;
-  }
   
-  img{
-    width: full;
-  }
-
   .hero-anim{
     height: 200px;
   }
