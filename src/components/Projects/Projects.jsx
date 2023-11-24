@@ -1,15 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import html from "../../images/stack/HTML.png";
-import css from "../../images/icons/CSS.png";
-import javascript from "../../images/icons/Javascript.svg";
-import react from "../../images/icons/React.png";
-import tailwind from "../../images/icons/Tailwind.png";
-import nodejs from "../../images/icons/NodeJs.svg";
-import expressjs from "../../images/icons/Express.png";
-import mongodb from "../../images/icons/MongoDB.svg";
-import github from "../../images/icons/Github.svg";
-import redux from "../../images/icons/redux.png";
+import { FaCss3Alt, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiExpress, SiMongodb, SiRedux, SiTailwindcss } from "react-icons/si";
 
 const Projects = () => {
   return (
@@ -25,14 +17,14 @@ const Projects = () => {
               <div className="project-number project-number-left">01</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={css} alt="css" />
-                  <img className="skill-icon" src={javascript} alt="javascript" />
-                  <img className="skill-icon" src={react} alt="react" />
-                  <img className="skill-icon" src={tailwind} alt="tailwind" />
-                  <img className="skill-icon" src={nodejs} alt="nodejs" />
-                  <img className="skill-icon" src={expressjs} alt="expressjs" />
-                  <img className="skill-icon" src={mongodb} alt="mongodb" />
+                  <FaHtml5 size={40} />
+                  <FaJs size={40} />
+                  <SiTailwindcss size={40} />
+                  <FaReact size={40} />
+                  <SiRedux size={40} />
+                  <FaNodeJs size={40} />
+                  <SiExpress size={40} />
+                  <SiMongodb size={40} />
                 </div>
 
                 <div className="project-heading">StudyNotion App</div>
@@ -66,11 +58,11 @@ const Projects = () => {
               <div className="project-number project-number-left">01</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={css} alt="css" />
-                  <img className="skill-icon" src={javascript} alt="javascript" />
-                  <img className="skill-icon" src={react} alt="react" />
-                  <img className="skill-icon" src={redux} alt="redux" />
+                  <FaHtml5 size={40} />
+                  <FaCss3Alt size={40} />
+                  <FaJs size={40} />
+                  <FaReact size={40} />
+                  <SiRedux size={40} />
                 </div>
 
                 <div className="project-heading">ShoppingCart App</div>
@@ -104,9 +96,9 @@ const Projects = () => {
               <div className="project-number project-number-left">01</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={css} alt="css" />
-                  <img className="skill-icon" src={javascript} alt="javascript" />
+                  <FaHtml5 size={40} />
+                  <FaCss3Alt size={40} />
+                  <FaJs size={40} />
                 </div>
 
                 <div className="project-heading">WeatherApp</div>
@@ -135,9 +127,9 @@ const Projects = () => {
               <div className="project-number project-number-left">02</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={css} alt="css" />
-                  <img className="skill-icon" src={javascript} alt="javascript" />
+                  <FaHtml5 size={40} />
+                  <FaCss3Alt size={40} />
+                  <FaJs size={40} />
                 </div>
 
                 <div className="project-heading">DevDetective App</div>
@@ -166,9 +158,9 @@ const Projects = () => {
               <div className="project-number project-number-left">03</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={css} alt="css" />
-                  <img className="skill-icon" src={javascript} alt="javascript" />
+                  <FaHtml5 size={40} />
+                  <FaCss3Alt size={40} />
+                  <FaJs size={40} />
                 </div>
 
                 <div className="project-heading">PasswordGenerator App</div>
@@ -202,8 +194,8 @@ const Projects = () => {
               <div className="project-number project-number-left">01</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={tailwind} alt="tailwind" />
+                  <FaHtml5 size={40} />
+                  <SiTailwindcss size={40} />
                 </div>
 
                 <div className="project-heading">Razorpay Clone</div>
@@ -232,8 +224,8 @@ const Projects = () => {
               <div className="project-number project-number-left">02</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={tailwind} alt="tailwind" />
+                  <FaHtml5 size={40} />
+                  <SiTailwindcss size={40} />
                 </div>
 
                 <div className="project-heading">Discord Clone</div>
@@ -262,8 +254,8 @@ const Projects = () => {
               <div className="project-number project-number-left">03</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={tailwind} alt="tailwind" />
+                  <FaHtml5 size={40} />
+                  <SiTailwindcss size={40} />
                 </div>
 
                 <div className="project-heading">Nike Clone</div>
@@ -297,8 +289,8 @@ const Projects = () => {
               <div className="project-number project-number-left">01</div>
               <div className="project-content">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={css} alt="css" />
+                  <FaHtml5 size={40} />
+                  <FaCss3Alt size={40} />
                 </div>
 
                 <div className="project-heading">ImageGallery</div>
@@ -327,8 +319,8 @@ const Projects = () => {
               <div className="project-number project-number-left">02</div>
               <div className="project-content project-content-left">
                 <div className="skill-container">
-                  <img className="skill-icon" src={html} alt="html" />
-                  <img className="skill-icon" src={css} alt="css" />
+                  <FaHtml5 size={40} />
+                  <FaCss3Alt size={40} />
                 </div>
 
                 <div className="project-heading">Portfolio App</div>
@@ -356,12 +348,15 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
-      <a className="exploreGitProfile" href="https://www.github.com/jaydeepbariya" title="Visit GitHub Profile">
-          Explore Other Projects
+      <a
+        className="exploreGitProfile"
+        href="https://www.github.com/jaydeepbariya"
+        title="Visit GitHub Profile"
+      >
+        Explore Other Projects
       </a>
     </div>
   );

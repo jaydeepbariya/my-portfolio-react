@@ -14,9 +14,9 @@ function App() {
 
         <HeroSection />
 
-        <Projects />
-
         <Skills />
+
+        <Projects />
 
         <Contact />
 

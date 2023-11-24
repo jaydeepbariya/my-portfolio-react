@@ -1,7 +1,6 @@
 import React from "react";
 import './Navbar.css';
 import navbarLogo from "../../images/userAssets/NavLogo.jpg";
-import { RxCrossCircled } from 'react-icons/rx';
 
 const Navbar = () => {
   return (
@@ -21,6 +20,10 @@ const Navbar = () => {
           <a href="#contactme">Contact</a>
         </li>
       </ul>
+
+      <div className="download-cv">
+        <a href="https://drive.google.com/file/d/1Z3i6DhvcW26Z5L1L-gZdxgTENc8yFhx6/view?usp=sharing" download={true} target="_blank" rel="noreferrer">Download CV</a>
+      </div>
     </nav>
   );
 };

@@ -28,6 +28,22 @@ nav{
     list-style-type: none;
 }
 
+.download-cv{
+    background-color: rgb(255, 185, 55);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.3rem;
+    transition: 0.2s all;
+}
+
+.download-cv:hover{
+    transform: scale(1.05);
+}
+
+.download-cv:active{
+    outline: 2px solid salmon;
+    outline-offset: 0.25rem;
+}
+
 @media only screen and (max-width:768px) {
     nav{
         flex-direction: column;

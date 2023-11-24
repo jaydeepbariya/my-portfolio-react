@@ -1,122 +1,131 @@
-.skill-section{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-    margin: 0 auto;
-    min-height: 700px;
-  }
-  
-  .faded-text-skill{
-    color: rgb(231, 231, 231);
-    position: absolute;
-    bottom: -10%;
-    right: -5%;
-    font-size: 200px;
-    font-weight:600px;
-    user-select: none;
-  }
-  
-  .skill-section-left{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 2rem;
-  }
-  
-  .skill-section-right{
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    gap: 50px;
-  }
-  
-  .blob{
-    position: absolute;
-    width: 300px;
-    z-index: -21;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    animation: blobAnim 3s linear infinite;
-  }
-  
-  @keyframes blobAnim{
-    0%{
-      transform: translateX(100px);
-    }
-  
-    50%{
-      transform: translateX(150px);
-    }
-  
-    100%{
-      transform: translateX(100px);
-    }
-  }
-  
-  .skills-icon{
-    width: 80px;
-    height: 80px;
-  
-    transition: all 0.4s;
-  }
-  
-  .skills-icon:hover{
-    transform: scale(1.2);
-  }
-  
-  .skill-heading{
-    font-size: 40px;
-    font-weight: 600;
-    color: orangered;
-  }
-  
-  .skill-heading span{
-    font-size: 60px;
-  }
-  
-  .skill-subheading{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    text-align: justify;
+.skill-section {
+  width: 1200px;
+  min-height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.faded-text-skill {
+  color: rgb(231, 231, 231);
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+  font-size: 200px;
+  font-weight: 600px;
+  user-select: none;
+}
+
+.skill-section-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 2rem;
+}
+
+.skill-section-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  gap: 3rem;
+}
+
+.skill-section-right .skill-section{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.blob {
+  position: absolute;
+  width: 300px;
+  z-index: -21;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  animation: blobAnim 3s linear infinite;
+}
+
+@keyframes blobAnim {
+  0% {
+    transform: translateX(150px);
   }
 
-@media only screen and (max-width:768px) {
-  .skill-section{
+  50% {
+    transform: translateX(200px);
+  }
+
+  100% {
+    transform: translateX(150px);
+  }
+}
+
+.skill-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  outline: 2px solid orange;
+  border-radius: 5%;
+  transition: all 0.2s;
+  padding: 0.25rem;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+}
+
+.skill-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: orangered;
+}
+
+.skill-heading span {
+  font-size: 60px;
+}
+
+.skill-subheading {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .skill-section {
     width: 100%;
     flex-direction: column;
     margin: auto;
   }
 
-  .skill-section-left{
+  .skill-section-left {
     width: 90%;
     margin: auto;
   }
 
-  
-  .skill-section-right{
+  .skill-section-right {
     min-width: 90%;
     margin: 4rem auto;
-
   }
 
-  .faded-text-skill{
+  .faded-text-skill {
     display: none;
   }
 
-  .skill-heading{
+  .skill-heading {
     width: 90%;
     margin: auto;
   }
 
-  .skill-subheading{
+  .skill-subheading {
     width: 90%;
     margin: auto;
   }
 }
-  
-  
